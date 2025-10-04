@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(npm install)",
+      "Bash(npm test)",
+      "Bash(npm install:*)",
+      "Bash(npm start)",
+      "Bash(curl:*)",
+      "Bash(npx create-react-app:*)",
+      "Bash(npm create:*)",
+      "Bash(npm run dev)",
+      "Bash(npm run build)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(chmod:*)",
+      "Bash(./integration-test.sh)",
+      "Bash(node:*)",
+      "Bash(tasklist:*)",
+      "Bash(taskkill:*)",
+      "Bash(dir:*)",
+      "WebSearch",
+      "Bash(npm search:*)",
+      "Bash(npx:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

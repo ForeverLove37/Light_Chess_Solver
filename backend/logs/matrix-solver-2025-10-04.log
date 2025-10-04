@@ -1,0 +1,710 @@
+{"timestamp":"2025-10-04T05:22:57.639Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:22:57.647Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"6ms"}}
+{"timestamp":"2025-10-04T05:22:57.649Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:22:57.651Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:23:28.557Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:23:28.562Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:23:58.557Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:23:58.559Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:24:28.573Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:24:28.578Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"3ms"}}
+{"timestamp":"2025-10-04T05:24:37.234Z","level":"info","message":"API请求","data":{"method":"POST","endpoint":"/api/solve","ip":"127.0.0.1","requestBody":{"rows":5,"cols":5,"board":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]}}}
+{"timestamp":"2025-10-04T05:24:37.236Z","level":"info","message":"开始处理求解请求","data":{"matrixSize":"5×5","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}}
+{"timestamp":"2025-10-04T05:24:37.237Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T05:24:37.238Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T05:24:37.240Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T05:24:37.242Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"2.9564ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T05:24:37.243Z","level":"info","message":"求解请求处理完成","data":{"status":"solvable","solveTime":"6.27ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T05:24:37.244Z","level":"info","message":"API响应","data":{"method":"POST","endpoint":"/api/solve","statusCode":200,"responseTime":"9ms"}}
+{"timestamp":"2025-10-04T05:24:57.638Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:24:57.640Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:25:28.570Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:25:28.572Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:25:58.567Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:25:58.568Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:26:27.635Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:26:27.636Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:26:48.573Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:26:48.574Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:27:17.582Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:27:17.583Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:27:42.575Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:27:42.576Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:27:48.569Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:27:48.570Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:27:48.571Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:27:48.572Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:27:59.568Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:27:59.569Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:28:06.575Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:28:06.576Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:28:27.563Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:28:27.564Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:28:46.572Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:28:46.574Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:28:46.575Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:28:46.576Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:29:06.568Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:29:06.569Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:29:37.566Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:29:37.568Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:30:07.565Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:30:07.567Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:30:37.573Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:30:37.575Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:31:07.558Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:31:07.560Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:31:37.566Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:31:37.568Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:32:06.574Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:32:06.575Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:32:37.572Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:32:37.574Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:33:07.564Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:33:07.565Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:33:45.079Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:33:45.080Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:33:47.817Z","level":"info","message":"API请求","data":{"method":"POST","endpoint":"/api/solve","ip":"127.0.0.1","requestBody":{"rows":5,"cols":5,"board":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]}}}
+{"timestamp":"2025-10-04T05:33:47.819Z","level":"info","message":"开始处理求解请求","data":{"matrixSize":"5×5","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}}
+{"timestamp":"2025-10-04T05:33:47.819Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T05:33:47.819Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T05:33:47.820Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T05:33:47.821Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"0.9198ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T05:33:47.821Z","level":"info","message":"求解请求处理完成","data":{"status":"solvable","solveTime":"2.09ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T05:33:47.822Z","level":"info","message":"API响应","data":{"method":"POST","endpoint":"/api/solve","statusCode":200,"responseTime":"4ms"}}
+{"timestamp":"2025-10-04T05:34:04.887Z","level":"info","message":"API请求","data":{"method":"POST","endpoint":"/api/solve","ip":"127.0.0.1","requestBody":{"rows":25,"cols":25,"board":[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]}}}
+{"timestamp":"2025-10-04T05:34:04.888Z","level":"info","message":"开始处理求解请求","data":{"matrixSize":"25×25","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}}
+{"timestamp":"2025-10-04T05:34:04.889Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"25×25","totalCells":625}}
+{"timestamp":"2025-10-04T05:34:04.889Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T05:34:04.906Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2","reason":"大矩阵 (625 > 400)"}}
+{"timestamp":"2025-10-04T05:34:04.933Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"43.3356ms","solutionSteps":353}}
+{"timestamp":"2025-10-04T05:34:04.934Z","level":"info","message":"求解请求处理完成","data":{"status":"solvable","solveTime":"45.02ms","solutionSteps":353}}
+{"timestamp":"2025-10-04T05:34:04.935Z","level":"info","message":"API响应","data":{"method":"POST","endpoint":"/api/solve","statusCode":200,"responseTime":"47ms"}}
+{"timestamp":"2025-10-04T05:34:06.573Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:34:06.575Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:34:36.571Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:34:36.573Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:35:06.571Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:35:06.573Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:35:36.571Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:35:36.572Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:36:06.572Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:36:06.574Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:36:37.566Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:36:37.568Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:37:06.573Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:37:06.574Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:37:37.573Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:37:37.574Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:38:07.574Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:38:07.575Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:38:36.571Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:38:36.573Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:39:55.434Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:39:55.436Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:40:07.561Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:40:07.563Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:40:37.569Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:40:37.571Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:41:14.926Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:41:14.927Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:41:30.854Z","level":"info","message":"API请求","data":{"method":"POST","endpoint":"/api/solve","ip":"127.0.0.1","requestBody":{"rows":6,"cols":6,"board":[[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0]]}}}
+{"timestamp":"2025-10-04T05:41:30.855Z","level":"info","message":"开始处理求解请求","data":{"matrixSize":"6×6","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}}
+{"timestamp":"2025-10-04T05:41:30.856Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"6×6","totalCells":36}}
+{"timestamp":"2025-10-04T05:41:30.856Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T05:41:30.857Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (36 ≤ 400)"}}
+{"timestamp":"2025-10-04T05:41:30.858Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.4905ms","solutionSteps":28}}
+{"timestamp":"2025-10-04T05:41:30.859Z","level":"info","message":"求解请求处理完成","data":{"status":"solvable","solveTime":"3.27ms","solutionSteps":28}}
+{"timestamp":"2025-10-04T05:41:30.861Z","level":"info","message":"API响应","data":{"method":"POST","endpoint":"/api/solve","statusCode":200,"responseTime":"6ms"}}
+{"timestamp":"2025-10-04T05:41:36.570Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:41:36.571Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:42:07.565Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:42:07.567Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:42:36.571Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:42:36.573Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:42:36.606Z","level":"info","message":"API请求","data":{"method":"POST","endpoint":"/api/solve","ip":"127.0.0.1","requestBody":{"rows":6,"cols":6,"board":[[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0]]}}}
+{"timestamp":"2025-10-04T05:42:36.607Z","level":"info","message":"开始处理求解请求","data":{"matrixSize":"6×6","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}}
+{"timestamp":"2025-10-04T05:42:36.607Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"6×6","totalCells":36}}
+{"timestamp":"2025-10-04T05:42:36.607Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T05:42:36.608Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (36 ≤ 400)"}}
+{"timestamp":"2025-10-04T05:42:36.609Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"0.9123ms","solutionSteps":28}}
+{"timestamp":"2025-10-04T05:42:36.609Z","level":"info","message":"求解请求处理完成","data":{"status":"solvable","solveTime":"2.13ms","solutionSteps":28}}
+{"timestamp":"2025-10-04T05:42:36.610Z","level":"info","message":"API响应","data":{"method":"POST","endpoint":"/api/solve","statusCode":200,"responseTime":"3ms"}}
+{"timestamp":"2025-10-04T05:43:07.564Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:43:07.565Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:43:37.564Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:43:37.565Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:44:06.575Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:44:06.577Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:45:06.573Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:45:06.574Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:46:06.566Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:46:06.567Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:47:06.571Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:47:06.572Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:47:23.567Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:47:23.569Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:47:33.566Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:47:33.567Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:48:04.571Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:48:04.573Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:48:10.594Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:48:10.595Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:48:10.597Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:48:10.598Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:48:28.570Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:48:28.571Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:48:28.573Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:48:28.574Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:48:59.576Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:48:59.578Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:49:02.573Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:49:02.574Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:49:33.560Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:49:33.562Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:49:51.567Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:49:51.568Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:50:22.569Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:50:22.571Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:50:52.566Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:50:52.568Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:51:07.574Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:51:07.576Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:51:38.568Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:51:38.569Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:52:08.574Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:52:08.576Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:52:20.895Z","level":"info","message":"API请求","data":{"method":"POST","endpoint":"/api/solve","ip":"127.0.0.1","requestBody":{"rows":5,"cols":5,"board":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]}}}
+{"timestamp":"2025-10-04T05:52:20.895Z","level":"info","message":"开始处理求解请求","data":{"matrixSize":"5×5","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}}
+{"timestamp":"2025-10-04T05:52:20.896Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T05:52:20.896Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T05:52:20.897Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T05:52:20.898Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"0.9946ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T05:52:20.898Z","level":"info","message":"求解请求处理完成","data":{"status":"solvable","solveTime":"2.35ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T05:52:20.899Z","level":"info","message":"API响应","data":{"method":"POST","endpoint":"/api/solve","statusCode":200,"responseTime":"4ms"}}
+{"timestamp":"2025-10-04T05:52:37.576Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:52:37.578Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:53:07.579Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:53:07.582Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:53:37.579Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:53:37.581Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:53:38.438Z","level":"info","message":"API请求","data":{"method":"POST","endpoint":"/api/solve","ip":"127.0.0.1","requestBody":{"rows":5,"cols":5,"board":[[1,0,1,1,1],[1,1,0,0,0],[1,1,1,1,1],[1,1,1,0,0],[0,1,1,1,1]]}}}
+{"timestamp":"2025-10-04T05:53:38.439Z","level":"info","message":"开始处理求解请求","data":{"matrixSize":"5×5","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}}
+{"timestamp":"2025-10-04T05:53:38.440Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T05:53:38.441Z","level":"debug","message":"棋盘统计信息","data":{"litCells":18,"darkness":"72.0%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T05:53:38.441Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T05:53:38.443Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.6421ms","solutionSteps":12}}
+{"timestamp":"2025-10-04T05:53:38.443Z","level":"info","message":"求解请求处理完成","data":{"status":"solvable","solveTime":"3.54ms","solutionSteps":12}}
+{"timestamp":"2025-10-04T05:53:38.445Z","level":"info","message":"API响应","data":{"method":"POST","endpoint":"/api/solve","statusCode":200,"responseTime":"6ms"}}
+{"timestamp":"2025-10-04T05:53:48.316Z","level":"info","message":"API请求","data":{"method":"POST","endpoint":"/api/solve","ip":"127.0.0.1","requestBody":{"rows":5,"cols":5,"board":[[1,1,1,1,1],[1,1,1,1,1],[1,1,0,0,1],[0,0,0,1,0],[0,1,1,1,1]]}}}
+{"timestamp":"2025-10-04T05:53:48.317Z","level":"info","message":"开始处理求解请求","data":{"matrixSize":"5×5","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}}
+{"timestamp":"2025-10-04T05:53:48.318Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T05:53:48.318Z","level":"debug","message":"棋盘统计信息","data":{"litCells":18,"darkness":"72.0%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T05:53:48.319Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T05:53:48.320Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.2015ms","solutionSteps":4}}
+{"timestamp":"2025-10-04T05:53:48.320Z","level":"info","message":"求解请求处理完成","data":{"status":"solvable","solveTime":"2.79ms","solutionSteps":4}}
+{"timestamp":"2025-10-04T05:53:48.322Z","level":"info","message":"API响应","data":{"method":"POST","endpoint":"/api/solve","statusCode":200,"responseTime":"5ms"}}
+{"timestamp":"2025-10-04T05:54:07.576Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:54:07.578Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:54:30.748Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/api/board/random","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:54:30.750Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T05:54:30.750Z","level":"debug","message":"棋盘统计信息","data":{"litCells":15,"darkness":"60.0%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T05:54:30.751Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T05:54:30.753Z","level":"info","message":"求解完成","data":{"status":"unsolvable","solvingTime":"1.5073ms","solutionSteps":0,"reason":"无解配置"}}
+{"timestamp":"2025-10-04T05:54:30.753Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T05:54:30.754Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T05:54:30.754Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T05:54:30.755Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.2192ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T05:54:30.757Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/api/board/random","statusCode":200,"responseTime":"8ms"}}
+{"timestamp":"2025-10-04T05:54:33.573Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/api/board/random","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:54:33.574Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T05:54:33.575Z","level":"debug","message":"棋盘统计信息","data":{"litCells":14,"darkness":"56.0%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T05:54:33.576Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T05:54:33.577Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.6874ms","solutionSteps":13}}
+{"timestamp":"2025-10-04T05:54:33.578Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/api/board/random","statusCode":200,"responseTime":"4ms"}}
+{"timestamp":"2025-10-04T05:54:34.640Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/api/board/random","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:54:34.642Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T05:54:34.642Z","level":"debug","message":"棋盘统计信息","data":{"litCells":13,"darkness":"52.0%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T05:54:34.643Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T05:54:34.644Z","level":"info","message":"求解完成","data":{"status":"unsolvable","solvingTime":"1.1943ms","solutionSteps":0,"reason":"无解配置"}}
+{"timestamp":"2025-10-04T05:54:34.645Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T05:54:34.645Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T05:54:34.646Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T05:54:34.647Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.7447ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T05:54:34.649Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/api/board/random","statusCode":200,"responseTime":"8ms"}}
+{"timestamp":"2025-10-04T05:54:35.168Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/api/board/random","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:54:35.169Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T05:54:35.170Z","level":"debug","message":"棋盘统计信息","data":{"litCells":15,"darkness":"60.0%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T05:54:35.171Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T05:54:35.172Z","level":"info","message":"求解完成","data":{"status":"unsolvable","solvingTime":"1.2731ms","solutionSteps":0,"reason":"无解配置"}}
+{"timestamp":"2025-10-04T05:54:35.173Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T05:54:35.173Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T05:54:35.174Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T05:54:35.175Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.2857ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T05:54:35.176Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/api/board/random","statusCode":304,"responseTime":"7ms"}}
+{"timestamp":"2025-10-04T05:54:35.928Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/api/board/random","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:54:35.929Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T05:54:35.929Z","level":"debug","message":"棋盘统计信息","data":{"litCells":11,"darkness":"44.0%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T05:54:35.930Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T05:54:35.931Z","level":"info","message":"求解完成","data":{"status":"unsolvable","solvingTime":"1.3442ms","solutionSteps":0,"reason":"无解配置"}}
+{"timestamp":"2025-10-04T05:54:35.932Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T05:54:35.932Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T05:54:35.933Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T05:54:35.934Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.1164ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T05:54:35.935Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/api/board/random","statusCode":304,"responseTime":"6ms"}}
+{"timestamp":"2025-10-04T05:54:37.578Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:54:37.581Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:54:38.233Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/api/board/random","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:54:38.234Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T05:54:38.235Z","level":"debug","message":"棋盘统计信息","data":{"litCells":15,"darkness":"60.0%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T05:54:38.235Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T05:54:38.237Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.4565ms","solutionSteps":10}}
+{"timestamp":"2025-10-04T05:54:38.238Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/api/board/random","statusCode":200,"responseTime":"4ms"}}
+{"timestamp":"2025-10-04T05:54:39.812Z","level":"info","message":"API请求","data":{"method":"POST","endpoint":"/api/solve","ip":"127.0.0.1","requestBody":{"rows":5,"cols":5,"board":[[1,1,1,1,1],[0,1,1,1,1],[1,0,1,0,1],[0,0,1,0,0],[1,0,0,0,1]]}}}
+{"timestamp":"2025-10-04T05:54:39.813Z","level":"info","message":"开始处理求解请求","data":{"matrixSize":"5×5","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}}
+{"timestamp":"2025-10-04T05:54:39.814Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T05:54:39.814Z","level":"debug","message":"棋盘统计信息","data":{"litCells":15,"darkness":"60.0%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T05:54:39.815Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T05:54:39.816Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.4931ms","solutionSteps":10}}
+{"timestamp":"2025-10-04T05:54:39.817Z","level":"info","message":"求解请求处理完成","data":{"status":"solvable","solveTime":"2.82ms","solutionSteps":10}}
+{"timestamp":"2025-10-04T05:54:39.818Z","level":"info","message":"API响应","data":{"method":"POST","endpoint":"/api/solve","statusCode":200,"responseTime":"5ms"}}
+{"timestamp":"2025-10-04T05:54:50.657Z","level":"info","message":"API请求","data":{"method":"POST","endpoint":"/api/solve","ip":"127.0.0.1","requestBody":{"rows":30,"cols":30,"board":[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]}}}
+{"timestamp":"2025-10-04T05:54:50.659Z","level":"info","message":"开始处理求解请求","data":{"matrixSize":"30×30","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}}
+{"timestamp":"2025-10-04T05:54:50.660Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"30×30","totalCells":900}}
+{"timestamp":"2025-10-04T05:54:50.660Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T05:54:50.693Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2","reason":"大矩阵 (900 > 400)"}}
+{"timestamp":"2025-10-04T05:54:50.752Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"90.7687ms","solutionSteps":456}}
+{"timestamp":"2025-10-04T05:54:50.753Z","level":"info","message":"求解请求处理完成","data":{"status":"solvable","solveTime":"93.79ms","solutionSteps":456}}
+{"timestamp":"2025-10-04T05:54:50.755Z","level":"info","message":"API响应","data":{"method":"POST","endpoint":"/api/solve","statusCode":200,"responseTime":"97ms"}}
+{"timestamp":"2025-10-04T05:54:53.028Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/api/board/random","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:54:53.031Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/api/board/random","statusCode":400,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:54:54.519Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/api/board/random","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:54:54.522Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/api/board/random","statusCode":400,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:55:07.578Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:55:07.579Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:55:37.577Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:55:37.579Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:55:38.548Z","level":"info","message":"API请求","data":{"method":"POST","endpoint":"/api/solve","ip":"127.0.0.1","requestBody":{"rows":30,"cols":30,"board":[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,1,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,0,0,1,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,1,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,1,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,1,1,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,1,1,1,1,0,1,1,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0]]}}}
+{"timestamp":"2025-10-04T05:55:38.550Z","level":"info","message":"开始处理求解请求","data":{"matrixSize":"30×30","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}}
+{"timestamp":"2025-10-04T05:55:38.550Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"30×30","totalCells":900}}
+{"timestamp":"2025-10-04T05:55:38.551Z","level":"debug","message":"棋盘统计信息","data":{"litCells":132,"darkness":"14.7%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T05:55:38.592Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2","reason":"大矩阵 (900 > 400)"}}
+{"timestamp":"2025-10-04T05:55:38.644Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"93.0028ms","solutionSteps":450}}
+{"timestamp":"2025-10-04T05:55:38.645Z","level":"info","message":"求解请求处理完成","data":{"status":"solvable","solveTime":"95.06ms","solutionSteps":450}}
+{"timestamp":"2025-10-04T05:55:38.647Z","level":"info","message":"API响应","data":{"method":"POST","endpoint":"/api/solve","statusCode":200,"responseTime":"97ms"}}
+{"timestamp":"2025-10-04T05:56:08.575Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:56:08.577Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T05:56:38.570Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:56:38.571Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:57:57.575Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:57:57.576Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:58:58.571Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:58:58.572Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T05:59:54.602Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T05:59:54.604Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:00:01.608Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:00:01.609Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:00:24.546Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:00:24.547Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:00:24.548Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:00:24.548Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:00:30.145Z","level":"info","message":"API请求","data":{"method":"POST","endpoint":"/api/solve","ip":"127.0.0.1","requestBody":{"rows":5,"cols":5,"board":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]}}}
+{"timestamp":"2025-10-04T06:00:30.146Z","level":"info","message":"开始处理求解请求","data":{"matrixSize":"5×5","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}}
+{"timestamp":"2025-10-04T06:00:30.147Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:00:30.148Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T06:00:30.148Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:00:30.149Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.276ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:00:30.150Z","level":"info","message":"求解请求处理完成","data":{"status":"solvable","solveTime":"3.16ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:00:30.151Z","level":"info","message":"API响应","data":{"method":"POST","endpoint":"/api/solve","statusCode":200,"responseTime":"5ms"}}
+{"timestamp":"2025-10-04T06:00:32.564Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:00:32.565Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:00:54.550Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:00:54.551Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:01:02.568Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:01:02.570Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:01:06.174Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/api/board/random","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:01:06.175Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:01:06.176Z","level":"debug","message":"棋盘统计信息","data":{"litCells":7,"darkness":"28.0%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T06:01:06.177Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:01:06.178Z","level":"info","message":"求解完成","data":{"status":"unsolvable","solvingTime":"1.373ms","solutionSteps":0,"reason":"无解配置"}}
+{"timestamp":"2025-10-04T06:01:06.179Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:01:06.180Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T06:01:06.180Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:01:06.181Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"0.9693ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:01:06.182Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/api/board/random","statusCode":200,"responseTime":"7ms"}}
+{"timestamp":"2025-10-04T06:01:08.161Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/api/board/random","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:01:08.162Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:01:08.163Z","level":"debug","message":"棋盘统计信息","data":{"litCells":14,"darkness":"56.0%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T06:01:08.163Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:01:08.164Z","level":"info","message":"求解完成","data":{"status":"unsolvable","solvingTime":"1.1685ms","solutionSteps":0,"reason":"无解配置"}}
+{"timestamp":"2025-10-04T06:01:08.165Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:01:08.166Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T06:01:08.166Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:01:08.167Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.1342ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:01:08.168Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/api/board/random","statusCode":304,"responseTime":"6ms"}}
+{"timestamp":"2025-10-04T06:01:08.678Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/api/board/random","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:01:08.679Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:01:08.680Z","level":"debug","message":"棋盘统计信息","data":{"litCells":13,"darkness":"52.0%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T06:01:08.680Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:01:08.681Z","level":"info","message":"求解完成","data":{"status":"unsolvable","solvingTime":"0.986ms","solutionSteps":0,"reason":"无解配置"}}
+{"timestamp":"2025-10-04T06:01:08.682Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:01:08.682Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T06:01:08.683Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:01:08.684Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.1468ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:01:08.685Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/api/board/random","statusCode":304,"responseTime":"6ms"}}
+{"timestamp":"2025-10-04T06:01:08.887Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/api/board/random","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:01:08.888Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:01:08.889Z","level":"debug","message":"棋盘统计信息","data":{"litCells":10,"darkness":"40.0%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T06:01:08.890Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:01:08.891Z","level":"info","message":"求解完成","data":{"status":"unsolvable","solvingTime":"1.1338ms","solutionSteps":0,"reason":"无解配置"}}
+{"timestamp":"2025-10-04T06:01:08.891Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:01:08.891Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T06:01:08.892Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:01:08.893Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.1447ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:01:08.894Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/api/board/random","statusCode":304,"responseTime":"6ms"}}
+{"timestamp":"2025-10-04T06:01:09.071Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/api/board/random","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:01:09.072Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:01:09.073Z","level":"debug","message":"棋盘统计信息","data":{"litCells":11,"darkness":"44.0%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T06:01:09.073Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:01:09.074Z","level":"info","message":"求解完成","data":{"status":"unsolvable","solvingTime":"1.11ms","solutionSteps":0,"reason":"无解配置"}}
+{"timestamp":"2025-10-04T06:01:09.075Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:01:09.075Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T06:01:09.076Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:01:09.077Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.4723ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:01:09.078Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/api/board/random","statusCode":304,"responseTime":"6ms"}}
+{"timestamp":"2025-10-04T06:01:15.143Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/api/board/random","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:01:15.144Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×7","totalCells":35}}
+{"timestamp":"2025-10-04T06:01:15.144Z","level":"debug","message":"棋盘统计信息","data":{"litCells":18,"darkness":"51.4%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T06:01:15.145Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (35 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:01:15.146Z","level":"info","message":"求解完成","data":{"status":"unsolvable","solvingTime":"1.0437ms","solutionSteps":0,"reason":"无解配置"}}
+{"timestamp":"2025-10-04T06:01:15.146Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×7","totalCells":35}}
+{"timestamp":"2025-10-04T06:01:15.147Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T06:01:15.148Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (35 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:01:15.149Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.32ms","solutionSteps":13}}
+{"timestamp":"2025-10-04T06:01:15.150Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/api/board/random","statusCode":200,"responseTime":"6ms"}}
+{"timestamp":"2025-10-04T06:01:15.875Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/api/board/random","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:01:15.876Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×7","totalCells":35}}
+{"timestamp":"2025-10-04T06:01:15.877Z","level":"debug","message":"棋盘统计信息","data":{"litCells":23,"darkness":"65.7%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T06:01:15.877Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (35 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:01:15.878Z","level":"info","message":"求解完成","data":{"status":"unsolvable","solvingTime":"1.1787ms","solutionSteps":0,"reason":"无解配置"}}
+{"timestamp":"2025-10-04T06:01:15.879Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×7","totalCells":35}}
+{"timestamp":"2025-10-04T06:01:15.879Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T06:01:15.880Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (35 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:01:15.881Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.2765ms","solutionSteps":13}}
+{"timestamp":"2025-10-04T06:01:15.883Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/api/board/random","statusCode":304,"responseTime":"7ms"}}
+{"timestamp":"2025-10-04T06:01:17.578Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/api/board/random","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:01:17.579Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×7","totalCells":35}}
+{"timestamp":"2025-10-04T06:01:17.580Z","level":"debug","message":"棋盘统计信息","data":{"litCells":21,"darkness":"60.0%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T06:01:17.581Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (35 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:01:17.582Z","level":"info","message":"求解完成","data":{"status":"unsolvable","solvingTime":"1.2691ms","solutionSteps":0,"reason":"无解配置"}}
+{"timestamp":"2025-10-04T06:01:17.583Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×7","totalCells":35}}
+{"timestamp":"2025-10-04T06:01:17.583Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T06:01:17.584Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (35 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:01:17.585Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.4628ms","solutionSteps":13}}
+{"timestamp":"2025-10-04T06:01:17.586Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/api/board/random","statusCode":304,"responseTime":"7ms"}}
+{"timestamp":"2025-10-04T06:01:18.267Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/api/board/random","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:01:18.268Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×7","totalCells":35}}
+{"timestamp":"2025-10-04T06:01:18.269Z","level":"debug","message":"棋盘统计信息","data":{"litCells":17,"darkness":"48.6%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T06:01:18.270Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (35 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:01:18.271Z","level":"info","message":"求解完成","data":{"status":"unsolvable","solvingTime":"1.2626ms","solutionSteps":0,"reason":"无解配置"}}
+{"timestamp":"2025-10-04T06:01:18.271Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×7","totalCells":35}}
+{"timestamp":"2025-10-04T06:01:18.272Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T06:01:18.272Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (35 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:01:18.273Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.0484ms","solutionSteps":13}}
+{"timestamp":"2025-10-04T06:01:18.274Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/api/board/random","statusCode":304,"responseTime":"6ms"}}
+{"timestamp":"2025-10-04T06:01:24.550Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:01:24.551Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:01:32.567Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:01:32.569Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:01:54.196Z","level":"info","message":"API请求","data":{"method":"POST","endpoint":"/api/solve","ip":"127.0.0.1","requestBody":{"rows":5,"cols":7,"board":[[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,1,0],[0,0,0,0,1,1,0],[0,0,0,0,0,0,1]]}}}
+{"timestamp":"2025-10-04T06:01:54.198Z","level":"info","message":"开始处理求解请求","data":{"matrixSize":"5×7","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}}
+{"timestamp":"2025-10-04T06:01:54.199Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×7","totalCells":35}}
+{"timestamp":"2025-10-04T06:01:54.199Z","level":"debug","message":"棋盘统计信息","data":{"litCells":4,"darkness":"11.4%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T06:01:54.200Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (35 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:01:54.201Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.8942ms","solutionSteps":17}}
+{"timestamp":"2025-10-04T06:01:54.202Z","level":"info","message":"求解请求处理完成","data":{"status":"solvable","solveTime":"3.47ms","solutionSteps":17}}
+{"timestamp":"2025-10-04T06:01:54.203Z","level":"info","message":"API响应","data":{"method":"POST","endpoint":"/api/solve","statusCode":200,"responseTime":"5ms"}}
+{"timestamp":"2025-10-04T06:01:54.549Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:01:54.550Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:02:02.577Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:02:02.579Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:02:24.572Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:02:24.574Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:02:32.573Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:02:32.575Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:02:54.575Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:02:54.576Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:03:02.565Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:03:02.566Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:03:24.575Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:03:24.577Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:03:54.577Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:03:54.578Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:04:03.576Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:04:03.578Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:04:47.075Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:04:47.076Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:04:54.547Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:04:54.548Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:05:04.566Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:05:04.567Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:05:24.567Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:05:24.568Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:05:54.564Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:05:54.566Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:06:05.566Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:06:05.567Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:06:07.578Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:06:07.579Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:06:07.618Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:06:07.620Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:06:26.607Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:06:26.608Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:06:26.726Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:06:26.727Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:06:50.584Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:06:50.586Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:06:50.636Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:06:50.638Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:07:16.602Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:07:16.604Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:07:16.605Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:07:16.606Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:07:16.609Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:07:16.610Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:07:16.614Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:07:16.616Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:07:24.567Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:07:24.569Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:07:24.570Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:07:24.571Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:07:30.574Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:07:30.575Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:07:30.577Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:07:30.578Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:07:47.575Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:07:47.577Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:07:47.578Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:07:47.579Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:07:59.573Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:07:59.574Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:07:59.575Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:07:59.576Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:08:30.568Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:08:30.569Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:08:30.570Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:08:30.571Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:08:42.571Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:08:42.572Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:08:42.573Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:08:42.575Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:09:13.573Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:09:13.574Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:09:13.575Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:09:13.577Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:09:43.572Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:09:43.574Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:09:43.575Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:09:43.576Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:09:49.568Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:09:49.569Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:09:49.571Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:09:49.572Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:10:20.571Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:10:20.573Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:10:20.574Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:10:20.575Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:10:32.481Z","level":"info","message":"API请求","data":{"method":"POST","endpoint":"/api/solve","ip":"127.0.0.1","requestBody":{"rows":5,"cols":5,"board":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]}}}
+{"timestamp":"2025-10-04T06:10:32.482Z","level":"info","message":"开始处理求解请求","data":{"matrixSize":"5×5","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}}
+{"timestamp":"2025-10-04T06:10:32.483Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:10:32.483Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T06:10:32.484Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:10:32.485Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.0571ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:10:32.485Z","level":"info","message":"求解请求处理完成","data":{"status":"solvable","solveTime":"2.56ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:10:32.486Z","level":"info","message":"API响应","data":{"method":"POST","endpoint":"/api/solve","statusCode":200,"responseTime":"4ms"}}
+{"timestamp":"2025-10-04T06:10:49.572Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:10:49.574Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:10:52.560Z","level":"info","message":"API请求","data":{"method":"POST","endpoint":"/api/solve","ip":"127.0.0.1","requestBody":{"rows":5,"cols":5,"board":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]}}}
+{"timestamp":"2025-10-04T06:10:52.561Z","level":"info","message":"开始处理求解请求","data":{"matrixSize":"5×5","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}}
+{"timestamp":"2025-10-04T06:10:52.562Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:10:52.562Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T06:10:52.563Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:10:52.564Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.041ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:10:52.565Z","level":"info","message":"求解请求处理完成","data":{"status":"solvable","solveTime":"2.85ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:10:52.566Z","level":"info","message":"API响应","data":{"method":"POST","endpoint":"/api/solve","statusCode":200,"responseTime":"5ms"}}
+{"timestamp":"2025-10-04T06:11:05.079Z","level":"info","message":"API请求","data":{"method":"POST","endpoint":"/api/solve","ip":"127.0.0.1","requestBody":{"rows":5,"cols":5,"board":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]}}}
+{"timestamp":"2025-10-04T06:11:05.080Z","level":"info","message":"开始处理求解请求","data":{"matrixSize":"5×5","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}}
+{"timestamp":"2025-10-04T06:11:05.081Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:11:05.082Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T06:11:05.082Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:11:05.084Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.6809ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:11:05.084Z","level":"info","message":"求解请求处理完成","data":{"status":"solvable","solveTime":"3.39ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:11:05.085Z","level":"info","message":"API响应","data":{"method":"POST","endpoint":"/api/solve","statusCode":200,"responseTime":"5ms"}}
+{"timestamp":"2025-10-04T06:11:19.574Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:11:19.576Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:11:24.312Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/api/board/random","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:11:24.313Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:11:24.313Z","level":"debug","message":"棋盘统计信息","data":{"litCells":13,"darkness":"52.0%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T06:11:24.314Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:11:24.316Z","level":"info","message":"求解完成","data":{"status":"unsolvable","solvingTime":"1.4357ms","solutionSteps":0,"reason":"无解配置"}}
+{"timestamp":"2025-10-04T06:11:24.316Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:11:24.317Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T06:11:24.318Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:11:24.319Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.7185ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:11:24.320Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/api/board/random","statusCode":304,"responseTime":"7ms"}}
+{"timestamp":"2025-10-04T06:11:28.140Z","level":"info","message":"API请求","data":{"method":"POST","endpoint":"/api/solve","ip":"127.0.0.1","requestBody":{"rows":5,"cols":5,"board":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]}}}
+{"timestamp":"2025-10-04T06:11:28.141Z","level":"info","message":"开始处理求解请求","data":{"matrixSize":"5×5","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}}
+{"timestamp":"2025-10-04T06:11:28.142Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:11:28.143Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T06:11:28.143Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:11:28.145Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.6904ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:11:28.146Z","level":"info","message":"求解请求处理完成","data":{"status":"solvable","solveTime":"3.48ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:11:28.147Z","level":"info","message":"API响应","data":{"method":"POST","endpoint":"/api/solve","statusCode":200,"responseTime":"6ms"}}
+{"timestamp":"2025-10-04T06:11:50.567Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:11:50.568Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:12:19.572Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:12:19.573Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:12:49.573Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:12:49.574Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:13:20.574Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:13:20.576Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:13:50.566Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:13:50.568Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:14:20.572Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:14:20.573Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:14:48.450Z","level":"info","message":"API请求","data":{"method":"POST","endpoint":"/api/solve","ip":"127.0.0.1","requestBody":{"rows":5,"cols":5,"board":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]}}}
+{"timestamp":"2025-10-04T06:14:48.451Z","level":"info","message":"开始处理求解请求","data":{"matrixSize":"5×5","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}}
+{"timestamp":"2025-10-04T06:14:48.452Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:14:48.452Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T06:14:48.453Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:14:48.454Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.2044ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:14:48.454Z","level":"info","message":"求解请求处理完成","data":{"status":"solvable","solveTime":"2.39ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:14:48.455Z","level":"info","message":"API响应","data":{"method":"POST","endpoint":"/api/solve","statusCode":200,"responseTime":"4ms"}}
+{"timestamp":"2025-10-04T06:14:49.569Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:14:49.570Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:15:20.567Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:15:20.569Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:15:50.561Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:15:50.563Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:16:25.126Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:16:25.127Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:16:50.562Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:16:50.564Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:17:20.557Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:17:20.559Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:17:31.564Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:17:31.565Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:18:02.565Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:18:02.566Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:18:32.562Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:18:32.564Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:19:02.565Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:19:02.566Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:19:22.585Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:19:22.587Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:19:22.589Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:19:22.590Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:19:35.560Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:19:35.561Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:20:03.571Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:20:03.572Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:20:34.562Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:20:34.563Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:20:44.577Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:20:44.578Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:21:15.567Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:21:15.568Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:21:36.359Z","level":"info","message":"API请求","data":{"method":"POST","endpoint":"/api/solve","ip":"127.0.0.1","requestBody":{"rows":5,"cols":5,"board":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]}}}
+{"timestamp":"2025-10-04T06:21:36.359Z","level":"info","message":"开始处理求解请求","data":{"matrixSize":"5×5","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}}
+{"timestamp":"2025-10-04T06:21:36.360Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:21:36.360Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T06:21:36.361Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:21:36.362Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.1568ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:21:36.362Z","level":"info","message":"求解请求处理完成","data":{"status":"solvable","solveTime":"2.66ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:21:36.364Z","level":"info","message":"API响应","data":{"method":"POST","endpoint":"/api/solve","statusCode":200,"responseTime":"5ms"}}
+{"timestamp":"2025-10-04T06:21:44.577Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:21:44.579Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:22:14.580Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:22:14.581Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:22:34.293Z","level":"info","message":"API请求","data":{"method":"POST","endpoint":"/api/solve","ip":"127.0.0.1","requestBody":{"rows":5,"cols":5,"board":[[1,1,1,0,1],[1,1,1,0,1],[1,1,1,1,1],[0,0,1,1,0],[1,1,1,0,1]]}}}
+{"timestamp":"2025-10-04T06:22:34.294Z","level":"info","message":"开始处理求解请求","data":{"matrixSize":"5×5","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}}
+{"timestamp":"2025-10-04T06:22:34.295Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:22:34.295Z","level":"debug","message":"棋盘统计信息","data":{"litCells":19,"darkness":"76.0%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T06:22:34.296Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:22:34.297Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.183ms","solutionSteps":14}}
+{"timestamp":"2025-10-04T06:22:34.297Z","level":"info","message":"求解请求处理完成","data":{"status":"solvable","solveTime":"2.72ms","solutionSteps":14}}
+{"timestamp":"2025-10-04T06:22:34.298Z","level":"info","message":"API响应","data":{"method":"POST","endpoint":"/api/solve","statusCode":200,"responseTime":"4ms"}}
+{"timestamp":"2025-10-04T06:22:44.576Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:22:44.578Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:23:14.576Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:23:14.578Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:23:45.560Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:23:45.562Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:24:55.563Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:24:55.565Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:25:54.531Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:25:54.533Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:26:15.573Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:26:15.574Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:26:45.566Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:26:45.567Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:27:55.562Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:27:55.564Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:28:18.557Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:28:18.558Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:28:49.552Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:28:49.554Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:29:19.550Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:29:19.552Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:29:48.560Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:29:48.562Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:30:10.012Z","level":"info","message":"API请求","data":{"method":"POST","endpoint":"/api/solve","ip":"127.0.0.1","requestBody":{"rows":5,"cols":5,"board":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]}}}
+{"timestamp":"2025-10-04T06:30:10.014Z","level":"info","message":"开始处理求解请求","data":{"matrixSize":"5×5","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}}
+{"timestamp":"2025-10-04T06:30:10.015Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:30:10.015Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T06:30:10.016Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:30:10.017Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.3761ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:30:10.018Z","level":"info","message":"求解请求处理完成","data":{"status":"solvable","solveTime":"3.24ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:30:10.019Z","level":"info","message":"API响应","data":{"method":"POST","endpoint":"/api/solve","statusCode":200,"responseTime":"6ms"}}
+{"timestamp":"2025-10-04T06:30:18.559Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:30:18.561Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"1ms"}}
+{"timestamp":"2025-10-04T06:30:48.560Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:30:48.561Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:31:02.231Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/api/board/random","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:31:02.232Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:31:02.233Z","level":"debug","message":"棋盘统计信息","data":{"litCells":12,"darkness":"48.0%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T06:31:02.233Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:31:02.235Z","level":"info","message":"求解完成","data":{"status":"unsolvable","solvingTime":"1.642ms","solutionSteps":0,"reason":"无解配置"}}
+{"timestamp":"2025-10-04T06:31:02.235Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:31:02.236Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T06:31:02.237Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:31:02.238Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.6126ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:31:02.240Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/api/board/random","statusCode":304,"responseTime":"8ms"}}
+{"timestamp":"2025-10-04T06:31:03.508Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/api/board/random","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:31:03.509Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:31:03.510Z","level":"debug","message":"棋盘统计信息","data":{"litCells":14,"darkness":"56.0%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T06:31:03.511Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:31:03.512Z","level":"info","message":"求解完成","data":{"status":"unsolvable","solvingTime":"1.0707ms","solutionSteps":0,"reason":"无解配置"}}
+{"timestamp":"2025-10-04T06:31:03.512Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:31:03.513Z","level":"debug","message":"棋盘统计信息","data":{"litCells":0,"darkness":"0.0%","boardPattern":["empty","symmetric"]}}
+{"timestamp":"2025-10-04T06:31:03.513Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:31:03.514Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.1957ms","solutionSteps":15}}
+{"timestamp":"2025-10-04T06:31:03.516Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/api/board/random","statusCode":304,"responseTime":"7ms"}}
+{"timestamp":"2025-10-04T06:31:18.558Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:31:18.559Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:31:31.898Z","level":"info","message":"API请求","data":{"method":"POST","endpoint":"/api/solve","ip":"127.0.0.1","requestBody":{"rows":5,"cols":5,"board":[[1,1,1,1,1],[1,0,0,0,0],[1,0,0,1,0],[1,1,1,0,1],[1,1,1,1,1]]}}}
+{"timestamp":"2025-10-04T06:31:31.899Z","level":"info","message":"开始处理求解请求","data":{"matrixSize":"5×5","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}}
+{"timestamp":"2025-10-04T06:31:31.899Z","level":"info","message":"开始矩阵求解","data":{"matrixSize":"5×5","totalCells":25}}
+{"timestamp":"2025-10-04T06:31:31.900Z","level":"debug","message":"棋盘统计信息","data":{"litCells":17,"darkness":"68.0%","boardPattern":"random"}}
+{"timestamp":"2025-10-04T06:31:31.901Z","level":"info","message":"算法选择","data":{"algorithm":"gaussianEliminationMod2Optimized","reason":"小矩阵 (25 ≤ 400)"}}
+{"timestamp":"2025-10-04T06:31:31.902Z","level":"info","message":"求解完成","data":{"status":"solvable","solvingTime":"1.1266ms","solutionSteps":14}}
+{"timestamp":"2025-10-04T06:31:31.902Z","level":"info","message":"求解请求处理完成","data":{"status":"solvable","solveTime":"2.69ms","solutionSteps":14}}
+{"timestamp":"2025-10-04T06:31:31.903Z","level":"info","message":"API响应","data":{"method":"POST","endpoint":"/api/solve","statusCode":200,"responseTime":"4ms"}}
+{"timestamp":"2025-10-04T06:31:48.558Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:31:48.560Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:32:19.552Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:32:19.555Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"2ms"}}
+{"timestamp":"2025-10-04T06:32:49.560Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:32:49.562Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}
+{"timestamp":"2025-10-04T06:33:29.334Z","level":"info","message":"API请求","data":{"method":"GET","endpoint":"/","ip":"127.0.0.1","requestBody":{}}}
+{"timestamp":"2025-10-04T06:33:29.335Z","level":"info","message":"API响应","data":{"method":"GET","endpoint":"/","statusCode":304,"responseTime":"0ms"}}

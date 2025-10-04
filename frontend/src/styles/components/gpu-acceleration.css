@@ -1,0 +1,248 @@
+/* GPU加速优化样式 */
+.gpu-accelerated {
+  /* 强制GPU加速 */
+  transform: translateZ(0);
+  will-change: transform;
+  backface-visibility: hidden;
+  perspective: 1000px;
+  isolation: isolate;
+}
+
+/* 大矩阵GPU优化 */
+.matrix-large {
+  /* 网格优化 */
+  display: grid;
+  contain: layout style paint;
+
+  /* GPU加速 */
+  transform: translateZ(0);
+  will-change: transform;
+  backface-visibility: hidden;
+
+  /* 布局优化 */
+  width: 100%;
+  aspect-ratio: 1;
+  min-height: 300px;
+  max-height: 80vh;
+
+  /* 响应式 */
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
+
+.matrix-large::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.matrix-large::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+
+.matrix-large::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+}
+
+.matrix-large::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* 单元格GPU优化 */
+.cell-gpu-optimized {
+  /* 基础GPU加速 */
+  transform: translateZ(0);
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+
+  /* CSS containment */
+  contain: layout style paint;
+
+  /* 最小化重排重绘 */
+  isolation: isolate;
+
+  /* 尺寸优化 */
+  min-width: 8px;
+  min-height: 8px;
+  aspect-ratio: 1;
+}
+
+.cell-gpu-accelerated {
+  /* 增强GPU加速 */
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* 硬件加速层 */
+  isolation: isolate;
+  position: relative;
+  z-index: 1;
+}
+
+/* 光点GPU加速 */
+.light-point-gpu {
+  /* 光点独立层 */
+  transform: translateZ(1px);
+  will-change: transform, opacity, box-shadow;
+
+  /* 优化光晕效果 */
+  filter: blur(0.5px);
+  -webkit-filter: blur(0.5px);
+
+  /* GPU加速动画 */
+  animation: none; /* 禁用动画以保持性能 */
+}
+
+/* 批处理渲染优化 */
+.batch-render-container {
+  /* 批处理容器优化 */
+  contain: layout style paint;
+  transform: translateZ(0);
+
+  /* 减少合成层 */
+  isolation: isolate;
+}
+
+/* 虚拟化GPU优化 */
+.virtual-container {
+  /* 虚拟化容器优化 */
+  contain: layout style paint;
+  transform: translateZ(0);
+  will-change: transform;
+
+  /* 优化滚动性能 */
+  overflow-anchor: none;
+  scroll-behavior: smooth;
+}
+
+/* 响应式GPU优化 */
+@media (max-width: 768px) {
+  .matrix-large {
+    min-height: 250px;
+    max-height: 60vh;
+  }
+
+  .cell-gpu-optimized {
+    min-width: 6px;
+    min-height: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .matrix-large {
+    min-height: 200px;
+    max-height: 50vh;
+  }
+
+  .cell-gpu-optimized {
+    min-width: 4px;
+    min-height: 4px;
+  }
+
+  .light-point-gpu {
+    width: 2px !important;
+    height: 2px !important;
+  }
+}
+
+/* 高DPI屏幕优化 */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .cell-gpu-optimized {
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
+
+  .light-point-gpu {
+    /* 高DPI屏幕优化 */
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+  }
+}
+
+/* 触摸设备优化 */
+@media (pointer: coarse) {
+  .cell-gpu-optimized {
+    /* 增大触摸区域 */
+    min-width: 12px;
+    min-height: 12px;
+  }
+}
+
+/* 减少运动偏好 */
+@media (prefers-reduced-motion: reduce) {
+  .gpu-accelerated,
+  .cell-gpu-optimized,
+  .cell-gpu-accelerated,
+  .light-point-gpu {
+    /* 尊重用户的减少运动偏好 */
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* 深色模式优化 */
+@media (prefers-color-scheme: dark) {
+  .matrix-large {
+    /* 深色模式下的对比度优化 */
+    background: rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* 性能监控样式 */
+.performance-indicator {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 12px;
+  z-index: 9999;
+  pointer-events: none;
+
+  /* GPU加速指示器 */
+  transform: translateZ(0);
+  will-change: opacity;
+}
+
+/* FPS显示优化 */
+.fps-display {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background: rgba(0, 255, 0, 0.1);
+  color: #0f0;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-family: monospace;
+  font-size: 10px;
+  z-index: 9999;
+  pointer-events: none;
+
+  /* GPU加速 */
+  transform: translateZ(0);
+  will-change: contents;
+}
+
+/* 内存使用指示器 */
+.memory-indicator {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(255, 165, 0, 0.1);
+  color: #ffa500;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-family: monospace;
+  font-size: 10px;
+  z-index: 9999;
+  pointer-events: none;
+
+  /* GPU加速 */
+  transform: translateZ(0);
+  will-change: contents;
+}
