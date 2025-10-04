@@ -1,5 +1,7 @@
 # 光影矩阵 (Lights Matrix Solver)
 
+Light_Chess_Solver — A interesting and traditional game (Lights Out). Welcome to try this game and play it. You can access it at my web: https://lightout.foreverlove37.cloud or deploy it on your own.
+
 <div align="center">
 
 ![光影矩阵](https://img.shields.io/badge/🎮-光影矩阵-00d4ff?style=for-the-badge&logo=react&logoColor=white)
